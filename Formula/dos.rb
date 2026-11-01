@@ -2,28 +2,28 @@
 class Dos < Formula
   desc "DevOps Shield compliance assessment and policy management CLI"
   homepage "https://www.devopsshield.com"
-  version "6.0.19"
+  version "6.0.268"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/devopsshield/devops-shield/releases/download/v6.0.19/dos-6.0.19-osx-arm64.tar.gz"
-      sha256 "83362a84f1a9a99c796d8a91e7945c406b6f078ca287a459c38b7f2d93afae1a"
+      url "https://github.com/devopsshield/devops-shield/releases/download/v6.0.268/dos-6.0.268-osx-arm64.tar.gz"
+      sha256 "843b39aea086417976d0b33147ffac879e82fc77dfd46d7e7fdaffb257b84406"
     end
     on_intel do
-      url "https://github.com/devopsshield/devops-shield/releases/download/v6.0.19/dos-6.0.19-osx-x64.tar.gz"
-      sha256 "a82d2e4404c16d6fce1417f63c8fd819335d6a29464753671862be2c19faef66"
+      url "https://github.com/devopsshield/devops-shield/releases/download/v6.0.268/dos-6.0.268-osx-x64.tar.gz"
+      sha256 "5118834285d3af2e0cb38352496afb47b4a8ea5ff03c5987e9d79febbd74517d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/devopsshield/devops-shield/releases/download/v6.0.19/dos-6.0.19-linux-arm64.tar.gz"
-      sha256 "39f95f4d2584c0b230a9c358e0607d5e10abde39152546e91861b6c55f756fbe"
+      url "https://github.com/devopsshield/devops-shield/releases/download/v6.0.268/dos-6.0.268-linux-arm64.tar.gz"
+      sha256 "be4189016d3fc84c5781e435507b3fe1be2c1040fb86c6e342acf8e4e651930d"
     end
     on_intel do
-      url "https://github.com/devopsshield/devops-shield/releases/download/v6.0.19/dos-6.0.19-linux-x64.tar.gz"
-      sha256 "d38573f3fab52aec4737049b57e1d6c7c64d43dedfe88cfe89b1adffe805f76b"
+      url "https://github.com/devopsshield/devops-shield/releases/download/v6.0.268/dos-6.0.268-linux-x64.tar.gz"
+      sha256 "abebaef72ecc4ae9beba3978b61a5dfe229b381270ecdf99316dfa1f9ab138cc"
     end
   end
 
